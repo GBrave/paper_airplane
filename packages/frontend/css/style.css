@@ -1,0 +1,110 @@
+/* common */
+.mr_2{
+    margin-right: 20px;
+}
+.mb_1{
+    margin-bottom: 10px;
+}
+.mb_2{
+    margin-bottom: 20px;
+}
+.wrap{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.wrap_p{
+    padding: 0 22px;
+}
+a:hover{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.cursor_p{
+    cursor: pointer;
+}
+hr{
+    display: block;
+    border: 1px solid #ddd;
+    margin: 0 -20px;
+}
+body{
+    position: relative;
+}
+h1{
+    font-size: 1.25rem;
+    padding: 26px 0;
+}
+h2{
+    border-radius: 20px;
+    padding: 10px 14px;
+    margin-right: 10px;
+    color: rgb(100, 100, 100);
+}
+h2.active{
+    border: 1px solid rgb(100, 100, 100);
+    color: black;
+}
+.h2Area{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+.h2Area .h2Box{
+    display: flex;
+}
+
+/* header */
+#header{
+    max-width: 480px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#header nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+    border-top: 1px solid #ddd;
+}
+#header nav ul li a{
+    display: block;
+    font-size: 1.5rem;
+    padding: 20px 5px;
+}
+
+/* schedule */
+.scheduleBox .item{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #bbb;
+    margin-bottom: 24px;
+}
+.scheduleBox .item i{
+    font-size: 38px;
+    color: rgb(177, 177, 177);
+}
+.scheduleBox .item > div > p{
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    display: block;
+    max-width: 32px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+.scheduleBox .item > div .category{
+    display: block;
+    margin: 10px 0;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    font-size: 12px;
+}
+.scheduleBox .item > div .date{
+    font-weight: 700;
+    color: red;
+}
